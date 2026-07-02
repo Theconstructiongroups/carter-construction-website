@@ -2,13 +2,13 @@ import React, { useEffect, useRef, useState } from 'react';
 import styles from './carter-site.module.css';
 import { Icon, IconName } from './icons.js';
 import { business, services, values, process, reviews, faqs } from './data.js';
-import heroKitchen from './assets/hero-kitchen.png';
-import projBathroom from './assets/project-bathroom.png';
-import projBasement from './assets/project-basement.png';
-import projDeck from './assets/project-deck.png';
-import projAddition from './assets/project-addition.png';
-import projFoyer from './assets/project-foyer.png';
-import projFlooring from './assets/project-flooring.png';
+import heroKitchen from './hero-kitchen.png';
+import projBathroom from './project-bathroom.png';
+import projBasement from './project-basement.png';
+import projDeck from './project-deck.png';
+import projAddition from './project-addition.png';
+import projFoyer from './project-foyer.png';
+import projFlooring from './project-flooring.png';
 
 const scrollTo = (id: string) =>
   document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
